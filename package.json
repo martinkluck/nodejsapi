@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/martinkluck/nodejsapi#readme",
   "dependencies": {
-    "@sendgrid/mail": "^7.0.0",
+    "@sendgrid/mail": "^7.4.2",
     "bcrypt": "^5.0.0",
     "cloudinary": "^1.21.0",
     "cors": "^2.8.5",
