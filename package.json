@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,8 @@
     "mongoose": "^5.12.3",
     "multer": "^1.4.4",
     "passport": "^0.5.2",
-    "passport-jwt": "^4.0.0"
-  }
+    "passport-jwt": "^4.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
